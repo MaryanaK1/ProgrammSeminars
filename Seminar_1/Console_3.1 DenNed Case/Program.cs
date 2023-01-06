@@ -25,4 +25,7 @@ case 6:
 case 7:
         Console.WriteLine("Воскресение");
         break;
+default:
+        Console.WriteLine("Эта цифра не обозначает день недели");
+        break;
 }
