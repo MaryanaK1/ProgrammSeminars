@@ -20,7 +20,7 @@ int Degree (int a, int b)
 }
 int numberA = ReadNumber("Введите число A: ");
 int numberB = ReadNumber("Введите число В: ");
-if (numberA < 0 || numberB < 0)
+if (numberA == 0 || numberB < 0)
 {
     Console.WriteLine("Введено неверное число");
 }
