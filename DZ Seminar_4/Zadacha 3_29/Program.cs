@@ -20,15 +20,3 @@ void PrintArray(int[] arr)
 }
 int[] array = CollectionArray(8);
 PrintArray(array);
-/*
-void PrintArray(int[] arr)
-{
-    for (int i = 0; i < arr.Length; i++)
-    {
-        Console.Write($"{arr[i]}, ");
-    }
-    Console.WriteLine();
-}
-
-int[] array = GreateArray(8);
-PrintArray(array); */
