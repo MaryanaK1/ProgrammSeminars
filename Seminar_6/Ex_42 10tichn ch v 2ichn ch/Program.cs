@@ -17,4 +17,16 @@ Console.Write("Введите число в десятичной системе:
 var decimalNumber = Convert.ToInt32(Console.ReadLine());
 var binaryNumber = Change(decimalNumber);
 
-Console.WriteLine($"Число {decimalNumber} в десятичной системе счисления - {binaryNumber}");
+Console.WriteLine($"Число {decimalNumber} в десятичной системе счисления = {binaryNumber}");
+
+// Console.WriteLine("Введите число!");
+// int N = Convert.ToInt32(Console.ReadLine());
+// string b = " ";
+// string k = " ";
+// while (N > 0)
+// {
+//     k = Convert.ToString(N%2);
+//     b = k + b;
+//     N = N/2;
+// }
+// Console.WriteLine(b);
